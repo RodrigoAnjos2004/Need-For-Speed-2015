@@ -1,0 +1,290 @@
+body {
+  text-align: center;
+  font-family: arial;
+  color: white;
+  overflow: hidden;
+  margin: 0;
+}
+
+.background {
+  position: absolute;
+  width: 170%;
+  height: 170%;
+  margin: 0 auto;
+  margin-top: -300px;
+  margin-left: -50px;
+  background: url("https://i.imgur.com/vgpgL1T.jpg") no-repeat;
+  background-size: cover;
+  transition: transform 100ms ease-in-out;
+}
+
+.menu {
+  width: 600px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 30vh;
+  transform: perspective(800px) rotateY(190deg) rotateX(540deg) rotateZ(175deg);
+  transition: transform 100ms ease-in-out;
+}
+  .menu > div:hover {
+    transform: scale(1.1,1.1);
+    transition: transform 150ms ease-in-out;
+    border: 7px solid white; /* rgba(255, 255, 255, 0.5) */
+    z-index: 100;
+  }
+
+.play {
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  margin-left: 50px;
+  margin-top: -50px;
+  background: url(https://c.tenor.com/rrLpPY37fdUAAAAC/need-for-speed-race.gif);
+  background-size: cover;
+  box-shadow: 0 0 10px black;
+}
+  .play p {
+    position: absolute;
+    margin-left: -15px;
+    margin-top: 100px;
+    font-size: 80px;
+    transform: scale(0.8,1.5);
+    opacity: 0.75;
+    cursor: default;
+  }
+  .play > img {
+    pointer-events: none;
+  }
+  .play > img:hover {
+    opacity: 0;
+  }
+  
+.snap {
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  background: url('https://images.alphacoders.com/652/652812.png') center center;
+  margin-left: 555px;
+  margin-top: 45px;
+  box-shadow: 0 0 10px black;
+}
+  .snap p {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 300px;
+    transform: scale(1.2,1.7);
+    opacity: 0.9;
+    cursor: default;
+    z-index: 10;
+  }
+  .snap img {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    margin-left: -200px;
+  }
+  
+.nfs {
+  position: absolute;
+  width: 275px;
+  height: 80px;
+  background: url('https://images7.alphacoders.com/652/652823.png') center center;
+  background-size: cover;
+  margin-left: 155px;
+  margin-top: -135px;
+  box-shadow: 0 0 10px black;
+
+}
+  .nfs div {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    opacity: 0.7;
+  }
+  .nfs p {
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 25px;
+    transform: scale(1.5,3);
+    opacity: 0.75;
+    cursor: default;
+  }
+  
+.configs {
+  position: absolute;
+  width: 100px;
+  height: 90px;
+  background: url('https://images5.alphacoders.com/603/603314.jpg') center center;
+  background-size: cover;
+  margin-left: 435px;
+  margin-top: -145px;
+  box-shadow: 0 0 10px black;;
+}
+  .configs p {
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 65px;
+    transform: scale(0.5,1);
+    opacity: 0.75;
+    cursor: default;
+  }
+
+.speedlist {
+  position: absolute;
+  width: 300px;
+  height: 150px;
+  background: url('https://media.giphy.com/media/l4FGzcmzmCXA96bC0/giphy.gif') center center;
+  background-size: cover;
+  margin-left: 455px;
+  margin-top: 255px;
+  box-shadow: 0 0 10px black;
+}
+  .speedlist p {
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 10px;
+    opacity: 0.75;
+    cursor: default;
+  }
+
+.team {
+  position: absolute;
+  width: 260px;
+  height: 150px;
+  background: url('https://thumbs.gfycat.com/ShowyFlamboyantBlackrhino-size_restricted.gif') center center;
+  background-size: 120% 120%;
+  margin-left: 190px;
+  margin-top: 255px;
+  box-shadow: 0 0 10px black;
+}
+  .team p:first-child {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 90px;
+    transform: scale(1,2);
+  }
+  .team p {
+    position: absolute;
+    margin-top: 120px;
+    transform: scale(.8,1);
+    opacity: 0.75;
+    cursor: default;
+  }
+
+.news {
+  position: absolute;
+  width: 260px;
+  height: 150px;
+  background: url('https://giffiles.alphacoders.com/130/13051.gif');
+  background-size: cover;
+  margin-left: -75px;
+  margin-top: 255px;
+  box-shadow: 0 0 10px black;
+}
+  .news p {
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 10px;
+    opacity: 0.75;
+    cursor: default;
+  }
+
+.may_know {
+  position: absolute;
+  width: 145px;
+  height: 135px;
+  background: url('https://j.gifs.com/vQlyK0@facebook.gif');
+  background-size: cover;
+  margin-left: -95px;
+  margin-top: 125px;
+  box-shadow: 0 0 10px black;
+}
+  .may_know p {
+    transform: scale(1,2);
+    opacity: 0.75;
+    cursor: default;
+  }
+  .may_know p:first-child {
+    transform: scale(1.5,2);
+  }
+
+.daily {
+  position: absolute;
+  width: 250px;
+  height: 150px;
+  background: url('https://giffiles.alphacoders.com/129/12938.gif');
+  background-size: cover;
+  margin-left: -205px;
+  margin-top: -30px;
+  box-shadow: 0 0 10px black;
+}
+  .daily p {
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 10px;
+    cursor: default;
+  }
+  
+#player {
+  display: flex;
+  height: 60px;
+  position: fixed;
+  right: 25px;
+  top: 25px;
+}
+
+#info {
+  display: flex;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  margin-left: 6px;
+  align-items: center;
+}
+#info img {
+  width: 57px;
+  height: 60px;
+  border-left: 5px solid #23affb;
+}
+#info #name {
+  color: rgba(255, 255, 255, 0.9);
+  margin-left: 14px;
+  font-size: 18px;
+  font-family: Arial;
+}
+#info #rank {
+  color: #fff;
+  background: #ff0000;
+  padding: 0 6px;
+  margin-left: 6px;
+  margin-right: 57px;
+  margin-bottom: 8px;
+  border-radius: 3px;
+  font-size: 13px;
+}
+
+#the_player {
+  position: fixed;
+  bottom: 67%;
+  right: 53px;
+  text-align: right;
+}
+#the_player #the_player-name {
+  font-size: 86px;
+  opacity: 0.9;
+  color: #fff;
+  line-height: 1;
+  text-shadow: 0 -2px 1px rgba(255, 255, 255, 0.8);
+}
+#the_player #the_player-unlocks {
+  line-height: 1;
+  opacity: 0.9;
+  font-size: 22px;
+  color: rgba(255, 255, 255, 0.85);
+  text-shadow: 0 0 2px black;
+}
+#the_player #the_player-unlocks span {
+  color: #fff;
+  opacity: 0.9;
+
+}
